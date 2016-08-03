@@ -34,7 +34,6 @@ public class YaoYaoActivity extends Activity {
 		webView = (BridgeWebView) findViewById(R.id.webView);
 		webView.setDefaultHandler(new DefaultHandler());
 		SslCertificate s=webView.getCertificate();
-
 //		webView.setWebViewClient(new WebViewClient(){
 //			@Override
 //			public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
